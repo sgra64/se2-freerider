@@ -8,7 +8,7 @@ from a Java program via the *JDBC* interface.
 
 Technologies used:
 
-- [*JDBC*](https://www.geeksforgeeks.org/introduction-to-jdbc) -
+- [*JDBC*](https://www.baeldung.com/java-jdbc) -
     the *Java Database Connectivity (JDBC)* interface is the earliest interface
     to access SQL-databases released in 1997. It is still the most commonly used
     interface. It is part of most other packages (e.g. `Spring Boot`, `Jakarta EE`)
