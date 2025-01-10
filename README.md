@@ -25,7 +25,7 @@ Technologies used:
   - [pom.xml](https://maven.apache.org/guides/getting-started/maven-in-five-minutes.html)
     (POM: Project Object Model) is the central file to control *maven* build.
 
-- [Docker-compose](https://docs.docker.com/compose)
+- [Docker-compose](https://docs.docker.com/compose/gettingstarted)
     is a tool set that simplifies image-build and container create, start/stop
     operations that is particularly useful when a project uses multiple containers.
 
