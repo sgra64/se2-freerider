@@ -72,10 +72,12 @@ git fetch se2-downstream maven-jdbc:maven-jdbc
 git fetch se2-downstream data:data
 
 # merge fetched branch 'maven-jdbc' into 'e2-springdata-jpa'
-git merge --allow-unrelated-histories maven-jdbc
+git merge --squash --allow-unrelated-histories maven-jdbc
+git commit -m "merge branch maven-jdbc"
 
 # merge fetched 'data'-branch into 'e2-springdata-jpa'
-git merge --allow-unrelated-histories data
+git merge --squash --allow-unrelated-histories data
+git commit -m "merge branch data"
 ```
 
 With the merge came the files for the `FREERIDER_DB` database:
